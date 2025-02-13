@@ -23,7 +23,7 @@ O projeto do site **Lógica de Programação em C** da empresa **Tech Academy** 
 
 - Tela Certicado impresso
 
-![certificado impresso](https://github.com/user-attachments/assets/1d93406a-2179-454a-9826-86e9f3310051)
+![certificado impresso](https://github.com/user-attachments/assets/53231e64-ed89-41ad-a714-90b0db4a574a)
 
 ## 🛠️ Tecnologias Utilizadas
 
