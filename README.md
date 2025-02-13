@@ -16,7 +16,7 @@ O projeto do site **Lógica de Programação em C** da empresa **Tech Academy** 
 ## 📂 Estrutura de Pastas
 
 ```
-/pagina-curso-c++
+/Curso_Algoritmo
 │
 ├── assets
 │   └── images
@@ -30,10 +30,7 @@ O projeto do site **Lógica de Programação em C** da empresa **Tech Academy** 
 │
 ├── data
 │   ├── conteudo.json           # Dados do conteúdo do curso
-│   └── exercicios.json         # Dados dos exercícios de programação
-│
-├── docs
-│   └── (documentação)          # Documentos ou explicações
+│   └── exercicios.json         # Dados dos exercícios de programação       
 │
 ├── js
 │   ├── certificado.js          # Lógica para o certificado
