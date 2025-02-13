@@ -5,6 +5,22 @@
 
 O projeto do site **Lógica de Programação em C** da empresa **Tech Academy** criada por **Carla coder**, é uma iniciativa voltada ao ensino e prática da lógica de programação utilizando a linguagem C, com o objetivo de proporcionar uma experiência interativa e acessível para estudantes de programação. O projeto foi criado como uma página de estudos sem backend, onde o conteúdo é carregado diretamente de arquivos estáticos e gerenciado localmente.
 
+- Tela início
+
+![Tela início](https://github.com/user-attachments/assets/2270f88b-c095-42f3-af06-4d4888a3f7ff)
+
+- Tela conteúdo
+
+![Conteúdo](https://github.com/user-attachments/assets/7bbbae48-9148-4392-a139-7efcbf8f5c30)
+
+- Tela exercícios
+
+![Exercícios](https://github.com/user-attachments/assets/b1e4fb7c-91f9-473d-a841-d9cf64ea530d)
+
+- Tela certificado
+
+![Certificado](https://github.com/user-attachments/assets/8fc1d28d-6d97-4f5a-8ddc-1c3f1923fb07)
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML**: Para estruturar a página.
