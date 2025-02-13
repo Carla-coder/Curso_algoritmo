@@ -1,1 +1,1 @@
-# Curso_C-
+# Curso Algorítmo
