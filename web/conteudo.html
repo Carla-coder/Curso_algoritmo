@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/styless.css">
+<title>Conteúdo das Aulas - Curso de Lógica de Programação em C</title>
+</head>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img
+              src="../assets/images/coding.jpg"
+              alt="Logo"
+              style="width: 40px; height: 40px"
+            />
+            <span>Lógica de Programação em C</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Início</a>
+            <a href="exercicios.html">Exercícios</a>
+            <a href="certificado.html">Certificado</a>
+        </div>
+        <div class="burger-menu">☰</div>
+    </nav>
+
+    <main>
+        <!-- <div class="progresso-container">
+            <h2>Seu Progresso no Curso</h2>
+            <div class="progresso-barra">
+                <div class="progresso-preenchimento" id="progressoBar"></div>
+            </div>
+            <p id="progressoTexto">0% Completo</p>
+        </div> -->
+
+        <div class="modulos">
+            <div class="modulo">
+                <h2>Módulo 1: Introdução à Lógica de Programação</h2>
+                <ul class="aulas-lista">
+                    <li class="aula">
+                        <div class="aula-info">
+                            <h3>1.1 O que é Lógica de Programação?</h3>
+                            <p>Conceitos básicos</p>
+                        </div>
+                        <!-- <span class="aula-status">Pendente</span> -->
+                    </li>
+                    <div class="explicacao">
+                        <p>Lógica de programação é a capacidade de criar soluções passo a passo para resolver problemas.</p>
+                        <br>
+                        <p>Ela se baseia em conceitos simples, como:</p>
+                        <br>
+                        <p><strong>1. Entrada:</strong> Coletar dados do usuário.</p>
+                        <br>
+                        <p><strong>2. Processamento:</strong> Trabalhar com os dados coletados.</p>
+                        <br>
+                        <p><strong>3. Saída:</strong> Exibir o resultado para o usuário.</p>
+                    </div>
+                    <li class="aula">
+                        <div class="aula-info">
+                            <h3>1.2 Introdução à Linguagem C</h3>
+                            <p>Características e ambiente de desenvolvimento</p>
+                        </div>
+                        <!-- <span class="aula-status">Pendente</span> -->
+                    </li>
+                    <div class="explicacao">
+                        <p>Um programa em C segue essa estrutura básica:</p>
+                        
+                        <div class="codigo-exemplo">
+            #include <stdio.h> // Biblioteca para entrada e saída de dados
+
+                            #include &lt;stdio.h&gt;
+                            int main() {
+                                // Corpo principal do programa
+                                printf("Olá, Mundo!\n"); // Exibe mensagem na tela
+                                return 0; // Indica que o programa terminou com sucesso
+                            }
+                        </div>
+                            <h3><strong>Explicação do código:</strong></h3>
+                            <br>
+                            <p>• <strong>#include <stdio.h>: </strong> Importa a biblioteca necessária para usar printf.</p>
+                            <br>
+                            <p>• <strong>int main():</strong> O ponto de entrada do programa.</p>
+                            <br>
+                            <p>• <strong>printf:</strong> Função que exibe texto no console.</p>
+                            <br>
+                            <p>• <strong>return 0:</strong> Indica que o programa terminou com sucesso.</p>
+                            <br>
+                            <h3>Configurando o ambiente:</h3>
+                            <br>
+                            <p>Para desenvolver em C, você precisará de uma IDE de sua preferência. Aqui iremos usar o Dev C++. Para instalar o Dev C++, siga estes passos:</p>
+                            <br>
+                            <p>1. Baixe o Dev C++ do site oficial.</p>
+                            <br>
+                            <p>2. Execute o instalador e siga as instruções na tela.</p>
+                            <br>
+                            <p>3. Após a instalação, abra o programa e configure o ambiente conforme necessário.</p>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="modulo">
+                <h2>Módulo 2: Variáveis e Tipos de Dados</h2>
+                <ul class="aulas-lista">
+                    <li class="aula">
+                        <div class="aula-info">
+                            <h3>2.1 Tipos de Dados Básicos</h3>
+                            <p>int, float, char e double</p>
+                        </div>
+                        <!-- <span class="aula-status">Pendente</span> -->
+                    </li>
+                    <div class="explicacao">
+                        <p>1. Variáveis são espaços na memória para armazenar valores temporários.</p>
+                        <br>
+                        <p>2. Cada variável tem um tipo que determina o tamanho e o formato dos dados que pode conter, como <em>int</em>, <em>float</em>, <em>char</em>, entre outros.</p>
+                        <br>
+                        <p>3.<strong> Entrada de Dados:</strong> Usando o scanf para coletar valores do usuário.</p>
+                        <br>
+                        <p>4.<strong> Saída de Dados:</strong> Usando o printf para exibir valores na tela.</p>
+                        <br>
+                        <h3>Principais Tipos de Variáveis:</h3>
+                        <br>
+                        <p>	<strong> int:</strong> Números inteiros (ex.: 10, -5).</p>
+                        <br>
+                        <p>	<strong> float:</strong> Números com casas decimais (ex.: 3.14, -0.5).</p>
+                        <br>
+                        <p>	<strong> char:</strong> Caracteres únicos (ex.: 'a', 'Z').</p>
+                        <br>
+                        <p>	<strong> double:</strong> Números com casas decimais de precisão dupla (ex.: 3.1415926535, -0.123456789).</p>
+                    </div>
+                    <li class="aula">
+                        <div class="aula-info">
+                            <h3>2.2 Operadores</h3>
+                            <p>Aritméticos, relacionais e lógicos</p>
+                        </div>
+                        <!-- <span class="aula-status">Pendente</span> -->
+                    </li>
+                    <div class="explicacao">
+                        <p><strong>1. Operadores Aritméticos:</strong> São usados para realizar operações matemáticas básicas.</p>
+                        <br>
+                        <p>•	Soma (+): Adiciona dois valores.</p>
+                        <br>
+                        <p>•	Subtração (-): Subtrai o segundo valor do primeiro.</p>
+                        <br>
+                        <p>•	Multiplicação (*): Multiplica dois valores.</p>
+                        <br>
+                        <p>•	Divisão (/): Divide o primeiro valor pelo segundo.</p>
+                        <br>
+                        <p>•	Módulo (%): Retorna o restante da divisão inteira entre dois números.</p>
+                        <br>
+                        <p><strong>2. Operadores Relacionais:</strong> São usados para comparar valores. Retornam 1 (verdadeiro) ou 0 (falso).</p>
+                        <br>
+                        <p>• == : Igual a</p>
+                        <br>
+                        <p>• != : Diferente de</p>
+                        <br>
+                        <p>• < : Menor que</p>
+                        <br>
+                        <p>• > : Maior que</p>
+                        <br>
+                        <p>• <= : Menor ou igual a</p>
+                        <br>
+                        <p>• >= : Maior ou igual a</p>
+                        <br>
+                        <p><strong>3. Operadores Lógicos:</strong> São usados para combinar expressões lógicas ou inverter seus resultados.</p>
+                        <br>
+                        <p>• && : E lógico</p>
+                        <br>
+                        <p>• || : Ou lógico</p>
+                        <br>
+                        <p>• ! : Não lógico</p>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="modulo">
+                <h2>Módulo 3: Estruturas de Controle</h2>
+                <ul class="aulas-lista">
+                    <li class="aula">
+                        <div class="aula-info">
+                            <h3>3.1 Estruturas Condicionais</h3>
+                            <p>if, else, switch case</p>
+                        </div>
+                        <!-- <span class="aula-status">Pendente</span> -->
+                    </li>
+                    <div class="explicacao">
+                        <p>As condicionais permitem executar diferentes blocos de código dependendo de uma condição ser verdadeira ou falsa. Elas são essenciais para permitir que o programa tome decisões durante sua execução</p>
+                        <br>
+                        <p>•	<em>if</em> : Executa um bloco de código se a condição for verdadeira.</p>
+                        <br>
+                        <p>•	<em>else</em> : Executa um bloco de código se a condição do if for falsa.</p>
+                        <br>
+                        <p>•	<em>else if</em> : permite testar múltiplas condições. Se a primeira condição for falsa, o programa verifica as condições adicionais.</p>
+                        <br>
+                        <p>•	<em>switch case</em> : permite executar diferentes blocos de código com base no valor de uma variável ou expressão.</p>
+                    </div>
+                    <li class="aula">
+                        <div class="aula-info">
+                            <h3>3.2 Estruturas de Repetição</h3>
+                            <p>while, do while, for</p>
+                        </div>
+                        <!-- <span class="aula-status">Pendente</span> -->
+                    </li>
+                    <div class="explicacao">
+                        <p>Estruturas de repetição <em>(Loops)</em> permitem executar um bloco de código repetidamente até que uma condição seja satisfeita.</p>
+                        <br>
+                        <p>•	<em>while</em> : Ideal quando o número de iterações não é conhecido, e a condição é verificada antes da execução do bloco de código.</p>
+                        <br>
+                        <p>•	<em>do while</em> : Semelhante ao while, mas a condição é verificada após a execução do bloco de código, garantindo que ele seja executado pelo menos uma vez.</p>
+                        <br>
+                        <p>•	<em>for</em> : Ideal quando o número de iterações é conhecido antecipadamente.</p>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modulos">
+            <h2>Módulo 4: Funções e Estruturas</h2>
+            <ul class="aulas-lista">
+                <li class="aula">
+                    <div class="aula-info">
+                        <h3>4.1 Funções</h3>
+                        <p>O que são <em>Funções</em> e como declarar.</p>    
+                    </div>
+                      
+                </li>
+                <div class="explicacao">
+                    <p><strong>Funções:</strong> São blocos de código que executam uma tarefa específica. Elas ajudam a organizar o código, evitando repetição e tornando o programa mais legível. Em C, as funções podem receber parâmetros (entradas) e retornar valores (saídas).</p>
+                    <br>
+                    <p><strong>Declaração de Funções:</strong> Antes de usar uma função, você precisa declarar sua assinatura, que informa o tipo de retorno, o nome da função e os parâmetros que ela recebe (se houver).</p>
+                </div>
+                <li class="aula">
+                    <div class="aula-info">
+                        <h3>4.2 Arrays e Strings</h3>
+                        <p>introdução aos arrays, manipulação de strings com a biblioteca string.h</p>
+                    </div>
+                    <!-- <span class="aula-status">Pendente</span> -->
+                </li>
+                <div class="explicacao">
+                    <p><strong>1. Arrays:</strong> são estruturas de dados que armazenam múltiplos valores do mesmo tipo em uma única variável. Eles são úteis quando precisamos armazenar várias informações de maneira organizada, como uma lista de números, nomes ou outros dados</p>
+                    <br>
+                    <p><strong>2. Strings:</strong> são sequências de caracteres. uma string é representada como um array de caracteres. Ou seja, uma sequência de caracteres armazenada em um array de tipo char. As strings em C são terminadas por um caractere especial chamado null terminator ('\0'), que indica o fim da string.</p>  
+                    <br>
+                    <p><strong>3. Manipulação de Strings:</strong> refere-se a trabalhar com sequências de caracteres (texto) para realizar tarefas como:</p>
+                    <br>
+                    <p>•	<em>Concatenação</em> (unir) strings</p>
+                    <br>
+                    <p>•	<em>Comparação</em> de strings</p>
+                    <br>
+                    <p>•	<em>Substituição</em> de caracteres ou strings</p>
+                    <br>
+                    <p>•	<em>Extração</em> de partes de uma string</p>
+                    <br>
+                    <p>•    <em>Criar, modificar e exibir strings</em></p>
+                    <br>
+                    <p>•    <em>Contar caracteres</em></p>
+                    <br>
+                    <p>•    <em>Dividir strings</em></p>
+                    <br>
+                    <p>•    <em>Encontrar substrings</em></p>
+                    <br>
+                    <p>•    <em>Realizar outras operações úteis em texto</em></p>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modulos">
+        <h2>Módulo 5: Projetos Práticos</h2>
+        <ul class="aulas-lista">
+            <li class="aula">
+                <div class="aula-info">
+                    <h3>5.1 Projeto 1 - Calculadora Simples</h3>
+                    <p>Desenvolver uma calculadora que permita ao usuário escolher a operação (soma, subtração, multiplicação, divisão) e realizar cálculos repetidamente até decidir sair</p>
+                    <br>
+                    <h3>Tópicos usados:</h3>
+                    
+                    <ul class="aulas-lista">
+                        <li class="aula">
+                            <div class="aula-info">
+                                <ul>
+                                    <li>Entrada e Saída de dados</li>
+                                    <li>Loops</li>
+                                    <li>Funções</li>
+                                </ul>
+                    </div>
+            </div>
+                <!-- <span class="aula-status">Pendente</span> -->
+            </li>
+            <div class="explicacao">
+                <p>Neste projeto, vamos utilizar a estrutura switch-case para tratar as diferentes operações e um loop do-while para permitir que o usuário continue realizando cálculos até decidir sair.</p><br>Abra a sua IDE de preferência e resolva o exercício.</p>
+                <br>
+                <h3>1. Estrutura do Projeto:</h3>
+                <br>
+                <p>•	Exibir um menu com as opções de operações (soma, subtração, multiplicação, divisão).</p>
+                <br>
+                <p>•	Permitir que o usuário insira dois números.</p>
+                <br>
+                <p>•	Realizar a operação matemática com os números fornecidos.</p>
+                <br>
+                <p>•	Exibir o resultado da operação.</p>
+                <br>
+                <p>•	Continuar pedindo cálculos até o usuário decidir sair.</p>
+                <br>
+                <h3>2. Estrutura do Código:</h3>
+                <br>
+                <p>•	Exibir o menu de opções.</p>
+                <br>
+                <p>•	Solicitar os números para o usuário.</p>
+                <br>
+                <p>•	Realizar a operação escolhida.</p>
+                <br>
+                <p>•	Exibir o resultado.</p>
+                <br>
+                <p>•	Repetir o processo até o usuário escolher a opção para sair.</p>
+                <br>
+                <h3>3. Estrutura Condicional e Loops:</h3>
+                <br>
+                <p>•	Neste projeto, vamos utilizar a estrutura switch-case para tratar as diferentes operações e um loop do-while para permitir que o usuário continue realizando cálculos até decidir sair.
+            </div>     
+        </div>
+
+        <div class="modulos">
+        <ul class="aulas-lista">
+            <li class="aula">
+                <div class="aula-info">
+                    <h3>6.2 Projeto 2 - Jogo de Adivinhação</h3>
+                    <p>Criar um jogo onde o computador escolhe um número aleatório entre 1 e 100, e o usuário tenta adivinhar. O programa deve informar se o palpite é maior ou menor que o número correto.</p><br><p>Abra a sua IDE de preferência e resolva o exercício.</p>
+                    <br>
+                    <h3>Tópicos usados:</h3>
+
+                    <ul class="aulas-lista">
+                        <li class="aula">
+                            <div class="aula-info">
+                                <ul>
+                                    <li>Condicionais</li>
+                                    <li>Loops</li>
+                                    <li>Funções</li>
+                                </ul>
+                    </div>
+                </div>
+                <!-- <span class="aula-status">Pendente</span> -->
+            </li>
+            <div class="explicacao">
+                <p>Desenvolver um jogo onde o computador escolhe um número aleatório entre 1 e 100, e o usuário tenta adivinhar qual é esse número. O programa deve informar ao usuário se o palpite foi maior ou menor que o número correto, até que o usuário acerte.</p>
+                <br>
+                <h3>1. Estrutura do Projeto:</h3>
+                <br>
+                <p>•	Gerar um número aleatório entre 1 e 100.</p>
+                <br>
+                <p>•	Pedir ao usuário para tentar adivinhar o número.</p>
+                <br>
+                <p>•	Informar ao usuário se o palpite é maior, menor ou igual ao número escolhido</p>
+                <br>
+                <p>•	Continuar pedindo palpites até que o usuário acerte.</p>
+                <br>
+                <p>•	Informar o número de tentativas feitas pelo usuário.</p>
+                <br>
+                <h3>2. Estruturas Utilizadas:</h3>
+                <br>
+                <p>•	<strong>Funções:</strong> Para organizar o código em partes menores, podemos criar uma função para verificar o palpite do usuário.</p>
+                <br>
+                <p>•	<strong>Geração de números aleatórios:</strong> Vamos utilizar a função rand() da biblioteca stdlib.h para gerar números aleatórios.</p>
+                <br>
+                <p>•	<strong>Estruturas de controle: </strong> Vamos usar o if para comparar o palpite do usuário com o número gerado e um loop while para continuar pedindo até que o usuário acerte.</p>
+             </div>
+        </div>
+
+            <div class="modulos">
+            <ul class="aulas-lista">
+            <li class="aula">
+                <div class="aula-info">
+                    <h3>7.3 Projeto 3 - Sistema de Cadastro Simples</h3>
+                    <p>Desenvolver um sistema que permita cadastrar até 5 pessoas (nome, idade) e exiba os dados cadastrados ao final.</p><br><p>Abra a sua IDE de preferência e resolva o exercício.</p>
+                    <br>
+                    <h3>Tópicos usados:</h3>
+                    <ul class="aulas-lista">
+                        <li class="aula">
+                            <div class="aula-info">
+                                <ul>
+                                    <li>Arrays</li>
+                                    <li>Estruturas de repetição</li>
+                                </ul>
+                    </div>
+                </div>
+                <!-- <span class="aula-status">Pendente</span> -->
+            </li>
+            <div class="explicacao">
+                <p>Desenvolver um sistema simples de cadastro, onde o usuário pode cadastrar até 5 pessoas, armazenando suas informações (nome e idade) e, ao final, exibir todos os dados cadastrados.</p>
+                <br>
+                <h3>1. Estrutura do Projeto:</h3>
+                <br>
+                <p>•	Permitir que o usuário cadastre até 5 pessoas, fornecendo o nome e a idade.</p>
+                <br>
+                <p>•	Exibir as informações de todas as pessoas cadastradas ao final.</p>
+                <br>
+                <p>•	Armazenar as informações de cada pessoa em um array de estruturas.</p>
+                <br>
+                <h3>2. Estruturas Utilizadas:</h3>
+                <br>
+                <p>•	<strong>Estruturas (struct): </strong> Usaremos uma estrutura para armazenar o nome e a idade de cada pessoa cadastrada.</p>
+                <br>
+                <p>•	<strong>Arrays:</strong> Usaremos um array de estruturas para armazenar os dados de até 5 pessoas.</p>
+                <br>
+                <p>•	<strong>Laços de repetição:  </strong> Utilizaremos um loop for para permitir que o usuário cadastre até 5 pessoas.</p>
+                <br>    
+            </div>
+        </ul>
+    </div>
+</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carla Coder. Todos os direitos reservados.</p>
+    </footer>
+    
+     <script src="../js/conteudo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+[
+    {
+        "titulo": "Calculadora Simples",
+        "descricao": "Crie um programa que realiza operações básicas de matemática (soma, subtração, multiplicação e divisão) entre dois números.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Verificador de Números Pares/Ímpares",
+        "descricao": "Desenvolva um programa que verifica se um número é par ou ímpar e exibe a mensagem apropriada.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Tabuada",
+        "descricao": "Crie um programa que gera a tabuada de um número inserido pelo usuário.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Mensagem",
+        "descricao": "Faça um Programa que mostre a mensagem \"Alô mundo\" na tela.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Número",
+        "descricao": "Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Soma",
+        "descricao": "Faça um Programa que peça dois números e imprima a soma.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Média",
+        "descricao": "Faça um Programa que peça as 4 notas bimestrais e mostre a média.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Conversão",
+        "descricao": "Faça um Programa que converta metros para centímetros.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Raio de um Círculo",
+        "descricao": "Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    },
+    {
+        "titulo": "Calcule a área",
+        "descricao": "Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.",
+        "codigo": "#include &lt;stdio.h&gt\n\nint main() {\n    // Seu código aqui\n    return 0;\n}"
+    }
+
+]

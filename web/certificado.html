@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificado - Curso Lógica de Programação em C</title>
+   <link rel="stylesheet" href="../css/stylessss.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="../assets/images/coding.jpg"
+          alt="Logo"
+          style="width: 40px; height: 40px"
+        />
+        <span>Tech Academy</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="conteudo.html">Conteúdo das Aulas</a>
+        <a href="exercicios.html">Exercícios</a>
+        <a href="certificado.html">Certificado</a>
+      </div>
+      <div class="burger-menu">☰</div>
+    </nav>
+
+    <main>
+      <div class="certificado-container">
+        <h1>Certificado de Conclusão - Curso Lógica de Programação em C</h1>
+        <br />
+        <p>Preencha seus dados e gere seu Certificado de Conclusão.</p>
+
+        <div class="form-certificado">
+          <div class="input-group">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" required />
+          </div>
+          <div class="input-group">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" maxlength="11" required />
+          </div>
+          <button class="btn-gerar-certificado">Gerar Certificado</button>
+        </div>
+
+        <!-- <div class="certificado-preview">
+                <h2 style="color: var(--primary-color); margin-bottom: 2rem;">Certificado de Conclusão</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                    Certificamos que <span id="nome-aluno" style="font-weight: bold;"></span>
+                    concluiu com êxito o curso de Lógica de Programação em C,
+                    com carga horária total de 40 horas.
+                </p>
+                <div style="margin: 3rem 0;">
+                    <p id="data-certificado" style="margin-bottom: 1rem;"></p>
+                    <br>
+                    <br>
+                    <div class="assinatura"></div>
+                    <p>Instrutora - Carla Coder</p>
+                    <br>
+                    <br>
+                    <p>Tech Academy - Formando Devs</p>
+                    <br>
+                    <br>
+                    <p>Parabéns por esta conquista!</p>
+                </div>
+                <svg class="selo" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" fill="#3498db" opacity="0.2"/>
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#2c3e50" stroke-width="1"/>
+                    <text x="50" y="45" text-anchor="middle" fill="#2c3e50" font-size="14">Tech</text>
+                    <text x="50" y="60" text-anchor="middle" fill="#2c3e50" font-size="14">Academy</text>
+                    <text x="50" y="75" text-anchor="middle" fill="#2c3e50" font-size="10">2024</text>
+                </svg>
+            </div> -->
+
+        <div class="certificado-preview">
+          <h2 style="color: var(--primary-color); margin-bottom: 2rem">
+            Certificado de Conclusão
+          </h2>
+          <p style="font-size: 1.3rem; margin-bottom: 2rem">
+            Certificamos que
+            <span id="nome-aluno" style="font-weight: bold"></span>
+            concluiu com êxito o curso de Lógica de Programação em C, com carga
+            horária total de 40 horas.
+          </p>
+          <div style="margin: 3rem 0">
+            <p id="data-certificado" style="margin-bottom: 1rem"></p>
+          </div>
+
+          <!-- Espaços para assinaturas -->
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 2rem;
+            "
+          >
+            <div style="text-align: center">
+              <div
+                style="
+                  border-top: 1px solid black;
+                  width: 200px;
+                  margin: 0 auto;
+                "
+              ></div>
+              <p>Assinatura do Aluno</p>
+            </div>
+            <div style="text-align: center">
+              <div
+                style="
+                  border-top: 1px solid black;
+                  width: 200px;
+                  margin: 0 auto;
+                "
+              ></div>
+              <p>Instrutora - Carla Coder</p>
+            </div>
+            <div style="text-align: center">
+              <div
+                style="
+                  border-top: 1px solid black;
+                  width: 200px;
+                  margin: 0 auto;
+                "
+              ></div>
+              <p>Tech Academy</p>
+            </div>
+          </div>
+
+          <p style="text-align: center; margin-top: 2rem">
+            Parabéns por esta conquista!
+          </p>
+
+          <svg class="selo" viewBox="0 0 100 100" style="margin-top: 2rem">
+            <circle cx="50" cy="50" r="45" fill="#3498db" opacity="0.2" />
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              fill="none"
+              stroke="#2c3e50"
+              stroke-width="1"
+            />
+            <text
+              x="50"
+              y="45"
+              text-anchor="middle"
+              fill="#2c3e50"
+              font-size="14"
+            >
+              Tech
+            </text>
+            <text
+              x="50"
+              y="60"
+              text-anchor="middle"
+              fill="#2c3e50"
+              font-size="14"
+            >
+              Academy
+            </text>
+            <text
+              x="50"
+              y="75"
+              text-anchor="middle"
+              fill="#2c3e50"
+              font-size="10"
+            >
+              2024
+            </text>
+          </svg>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/certificado.js"></script>
+
+    <footer>
+      <p>&copy; 2024 Carla Coder. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

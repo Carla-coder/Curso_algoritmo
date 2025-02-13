@@ -1,0 +1,97 @@
+{
+    "modulos": [
+      {
+        "titulo": "Módulo 1: Introdução à Lógica de Programação",
+        "aulas": [
+          {
+            "titulo": "1.1 O que é Lógica de Programação?",
+            "descricao": "Conceitos básicos",
+            "explicacao": {
+              "texto": [
+                "Lógica de programação é a capacidade de criar soluções passo a passo para resolver problemas.",
+                "Ela se baseia em conceitos simples, como:",
+                "1. Entrada: Coletar dados do usuário.",
+                "2. Processamento: Trabalhar com os dados coletados.",
+                "3. Saída: Exibir o resultado para o usuário."
+              ]
+            }
+          },
+          {
+            "titulo": "1.2 Introdução à Linguagem C",
+            "descricao": "Características e ambiente de desenvolvimento",
+            "explicacao": {
+              "texto": [
+                "Um programa em C segue essa estrutura básica:",
+                "#include &lt;stdio.h&gt\nint main() {\n    printf(\"Olá, Mundo!\\n\");\n    return 0;\n}",
+                "Explicação do código:",
+                "- #include <stdio.h>: Importa a biblioteca necessária para usar printf.",
+                "- int main(): O ponto de entrada do programa.",
+                "- printf: Função que exibe texto no console.",
+                "- return 0: Indica que o programa terminou com sucesso."
+              ],
+              "configuracao": [
+                "Para desenvolver em C, você precisará de uma IDE de sua preferência.",
+                "1. Baixe o Dev C++ do site oficial.",
+                "2. Execute o instalador e siga as instruções na tela.",
+                "3. Após a instalação, abra o programa e configure o ambiente conforme necessário."
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "titulo": "Módulo 2: Variáveis e Tipos de Dados",
+        "aulas": [
+          {
+            "titulo": "2.1 Tipos de Dados Básicos",
+            "descricao": "int, float, char e double",
+            "explicacao": {
+              "texto": [
+                "Variáveis são espaços na memória para armazenar valores temporários.",
+                "Cada variável tem um tipo que determina o tamanho e o formato dos dados que pode conter, como int, float, char, entre outros.",
+                "Entrada de Dados: Usando o scanf para coletar valores do usuário.",
+                "Saída de Dados: Usando o printf para exibir valores na tela."
+              ]
+            }
+          },
+          {
+            "titulo": "2.2 Operadores",
+            "descricao": "Aritméticos, relacionais e lógicos",
+            "explicacao": {
+              "texto": [
+                "1. Operadores Aritméticos: São usados para realizar operações matemáticas básicas.",
+                "2. Operadores Relacionais: São usados para comparar valores.",
+                "3. Operadores Lógicos: São usados para combinar expressões lógicas ou inverter seus resultados."
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "titulo": "Módulo 3: Estruturas de Controle",
+        "aulas": [
+          {
+            "titulo": "3.1 Estruturas Condicionais",
+            "descricao": "if, else, switch case",
+            "explicacao": {
+              "texto": [
+                "As condicionais permitem executar diferentes blocos de código dependendo de uma condição ser verdadeira ou falsa.",
+                "Exemplos: if, else, else if, switch case."
+              ]
+            }
+          },
+          {
+            "titulo": "3.2 Estruturas de Repetição",
+            "descricao": "while, do while, for",
+            "explicacao": {
+              "texto": [
+                "Estruturas de repetição permitem executar um bloco de código repetidamente até que uma condição seja satisfeita.",
+                "Exemplos: while, do while, for."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
