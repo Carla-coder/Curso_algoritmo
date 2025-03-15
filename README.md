@@ -21,7 +21,7 @@ O projeto do site **Lógica de Programação em C** da empresa **Tech Academy** 
 
 ![Certificado](https://github.com/user-attachments/assets/8fc1d28d-6d97-4f5a-8ddc-1c3f1923fb07)
 
-- Tela Certicado impresso
+- Tela Certificado impresso
 
 ![certificado impresso](https://github.com/user-attachments/assets/89df61d0-6d9b-4af1-8b52-bd20861a168a)
 
